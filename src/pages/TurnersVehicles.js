@@ -100,7 +100,6 @@ const TurnersVehicles = () => {
       })
       
       const sortedMatches = matches.sort((a, b) => b.matchCount - a.matchCount)
-      console.log(sortedMatches)
       setMatchingVehicles(sortedMatches)
       setIsLoading(false)
     }

@@ -1,30 +1,68 @@
 [
   {
-    "id":1,
     "model":"Ranger",
     "make":"ford",
     "labels":["ute"],
     "image":"https://cdn.motor1.com/images/mgl/vx4oyq/s1/4x3/2022-ford-ranger-wildtrak-in-the-forest.webp"
   },
   {
-    "id":2,
     "model":"Ranger",
     "make":"ford",
-    "labels":["ute"],
+    "labels":["ute", "commercial"],
     "image":"https://autoplay-1452c.kxcdn.com/image.ashx?id=63367111&w=1000&u="
   },
   {
-    "id":3,
     "model":"Everest",
     "make":"ford",
     "labels":["suv"],
     "image":"https://s1.cdn.autoevolution.com/images/news/gallery/2023-ford-everest-suv-rendered-looks-like-a-ranger-with-a-bed-cap_3.jpg"
   },
   {
-    "id":4,
     "model":"X-Trail",
     "make":"nissan",
     "labels":["suv"],
     "image":"https://assets.whichcar.com.au/image/upload/s--2mrt7SPV--/ar_2.304921968787515,c_fill,f_auto,q_auto:good/c_scale,w_768/v1/archive/whichcar/2020/04/29/2442/SUV-comparo-Nissan-X-Trail-front-quarter-action-(2).jpg"
+  },
+  {
+    "model":"Transporter",
+    "make":"volkswagen",
+    "labels":["van", "commercial"],
+    "image":"https://www.topgear.com/sites/default/files/cars-car/image/2020/08/transporter_6.1-24729.jpg"
+  },
+  {
+    "model":"Hiace",
+    "make":"toyota",
+    "labels":["van"],
+    "image":"https://live.staticflickr.com/65535/49835978711_3e46493c44_k.jpg"
+  },
+  {
+    "model":"Hiace",
+    "make":"toyota",
+    "labels":["van", "commercial"],
+    "image":"https://p.kindpng.com/picc/s/735-7350591_new-toyota-hiace-2020-malaysia-hd-png-download.png"
+  },
+  {
+    "model":"Range Rover",
+    "make":"land rover",
+    "labels":["suv"],
+    "image":"https://api.carsinventory.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMzBEQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1fc3bf3af5acfbed59231699e7124fe05713431a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2hwQXFRQmFRSHNld2M2RDJKaFkydG5jbTkxYm1SYkNXa0I3bWtCN21rQjdta0I3am9LWVd4d2FHRlUiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--dc0806ab4bbf7ea417532f6f2b215c70fbb61fd6/f003c0c3-35d4-410b-9229-cf3a282efde2.jpg"
+  },
+  {
+    "model":"Triton",
+    "make":"mitsibishi",
+    "labels":["ute", "commercial"],
+    "image":"https://simonlucas.co.nz/sites/default/files/blog/4%20Extra%20Benefits%20of%20the%202021%20Mitsubishi%20Triton.jpg"
+  },
+  {
+    "model":"Explorer",
+    "make":"ford",
+    "labels":["suv"],
+    "image":"https://aglomerado.digital/wp-content/uploads/2022/04/novo-ford-explorer-2023-suv-01-e1650381319782.jpg"
+  },
+  {
+    "model":"Hilux",
+    "make":"toyota",
+    "labels":["ute", "commercial"],
+    "image":"https://cdn.motor1.com/images/mgl/42xwo/s1/toyota-hilux-mako---nova-zelandia.jpg"
   }
 ]
