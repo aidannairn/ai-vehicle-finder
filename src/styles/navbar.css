@@ -1,0 +1,22 @@
+#navbar {
+  height: 4rem;
+  background-color: whitesmoke;
+  display: flex;
+  padding: 0 1rem;
+  justify-content: space-between;
+}
+
+#navbar .left {
+  margin-left: 1rem;
+}
+
+#navbar .right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbar .right h4 {
+  margin-left: 1rem;
+  padding: 0 1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id":1,
+    "model":"Ranger",
+    "make":"ford",
+    "labels":["ute"],
+    "image":"https://cdn.motor1.com/images/mgl/vx4oyq/s1/4x3/2022-ford-ranger-wildtrak-in-the-forest.webp"
+  },
+  {
+    "id":2,
+    "model":"Ranger",
+    "make":"ford",
+    "labels":["ute"],
+    "image":"https://autoplay-1452c.kxcdn.com/image.ashx?id=63367111&w=1000&u="
+  },
+  {
+    "id":3,
+    "model":"Everest",
+    "make":"ford",
+    "labels":["suv"],
+    "image":"https://s1.cdn.autoevolution.com/images/news/gallery/2023-ford-everest-suv-rendered-looks-like-a-ranger-with-a-bed-cap_3.jpg"
+  },
+  {
+    "id":4,
+    "model":"X-Trail",
+    "make":"nissan",
+    "labels":["suv"],
+    "image":"https://assets.whichcar.com.au/image/upload/s--2mrt7SPV--/ar_2.304921968787515,c_fill,f_auto,q_auto:good/c_scale,w_768/v1/archive/whichcar/2020/04/29/2442/SUV-comparo-Nissan-X-Trail-front-quarter-action-(2).jpg"
+  }
+]

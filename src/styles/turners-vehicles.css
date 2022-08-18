@@ -1,0 +1,173 @@
+#image-uploader {
+  background-image: url("https://wallpapercave.com/wp/wp5682418.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  min-height: 20rem;
+}
+
+#image-uploader .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 1.5rem;
+}
+
+#image-uploader .left h1 {
+  margin: 0;
+  color: white;
+  color: #1FA2FF;
+  text-shadow: 1px 1px black
+}
+
+#image-uploader .left h2 {
+  color: #12D8FA;
+  text-shadow: 1px 1px black
+}
+         
+.custom-upload-btn {
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  /* box-shadow: 0 0 20px #eee; */
+  display: block;
+  position: relative;
+}
+
+.custom-upload-btn:hover {
+  background-position: right center; /* change the direction of the gradient here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.custom-upload-btn .btn-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-upload-btn, .custom-upload-btn input {
+  height: 3rem;
+  width: 10rem;
+}
+
+.custom-upload-btn input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#image-uploader .right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+#vehicle-preview,  #new-img {
+  max-height: 20rem;
+}
+
+#matching-vehicles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.vehicle-container {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+  margin: 2rem;
+}
+
+.vehicle-container p {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 0;
+  padding: 1rem 0.5rem;
+  
+}
+
+.vehicle-chips-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vehicle-chips-container {
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.label-chips {
+  display: flex;
+  align-items: center;
+}
+
+.label-chip {
+  height: fit-content;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+  background-size: 200% auto;
+  margin-right: 0.5rem;
+}
+
+.label-chip h5 {
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-wrapper > img {
+  width: fit-content;
+  height: fit-content;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.loader-container {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 2rem;
+}
+
+.loader-container h2 {
+  margin-bottom: 0;
+}
+
+.loader-dots {
+  width: 20px;
+  aspect-ratio: 4;
+  background: radial-gradient(circle closest-side,#000 90%,#0000) 0/calc(100%/3) 100% space;
+  clip-path: inset(0 100% 0 0);
+  animation: d1 2s steps(4) infinite;
+  margin-bottom: 0.27rem;
+}
+
+@keyframes d1 {to{clip-path: inset(0 -34% 0 0)}}
