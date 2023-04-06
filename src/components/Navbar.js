@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div id="navbar">
       <div className="left">
-        <h2>Turners Vehicle Finder</h2>
+        <h2>Vehicle Finder</h2>
       </div>
       <div className="right">
         <h4>Home</h4>

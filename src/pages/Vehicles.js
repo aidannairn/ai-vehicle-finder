@@ -2,9 +2,9 @@ import { useState, useEffect, useRef } from "react"
 import axios from "axios"
 
 import vehiclesDB from '../vehicles.json'
-import '../styles/turners-vehicles.css'
+import '../styles/vehicles.css'
 
-const TurnersVehicles = () => {
+const Vehicles = () => {
   const [imageURL, setImageURL] = useState(null)
   const [imageBase64, setImageBase64] = useState(null)
   const [vehicleLabels, setVehicleLabels] = useState([])
@@ -156,7 +156,7 @@ const TurnersVehicles = () => {
   )
 
   return (
-    <div id="turners-vehicles">
+    <div id="vehicles">
       <div id="image-uploader">
         <div className="left">
           <h1>Looking for a vehicle?</h1>
@@ -207,4 +207,4 @@ const TurnersVehicles = () => {
   )
 }
 
-export default TurnersVehicles
+export default Vehicles

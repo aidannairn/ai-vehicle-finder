@@ -1,11 +1,11 @@
 import Navbar from "./components/Navbar";
-import TurnersVehicles from "./pages/TurnersVehicles";
+import Vehicles from "./pages/Vehicles";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <TurnersVehicles />
+      <Vehicles />
     </>
   )
 }

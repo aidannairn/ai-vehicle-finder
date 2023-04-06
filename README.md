@@ -1,4 +1,4 @@
-# Turners Vehicles AI
+# Vehicles AI
 
 The digital team would like to prototype a solution that allows a user to upload the picture of a car, and then find a similar car in their stock to recommend to customers.
 
